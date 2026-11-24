@@ -1,0 +1,4 @@
+.wm-leaf.wm-leaf-with-borders { border-color: #00F0FF55; }
+.wm-leaf.wm-leaf-with-borders.wm-leaf-focused { border-color: #FF2A6D; box-shadow: 0 0 10px #FF2A6D88; }
+.wm-stack .wm-stack-bar { background-color: #0A0A12F0; border: 1px solid #00F0FF55; border-radius: 2px; }
+.wm-reserved { background-color: #00F0FF26; border: 2px dashed #00F0FF; border-radius: 2px; color: #00F0FF; }

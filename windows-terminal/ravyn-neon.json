@@ -1,0 +1,23 @@
+{
+  "name": "RAVYN Neon",
+  "background": "#0A0A12",
+  "foreground": "#E6F1FF",
+  "cursorColor": "#FCEE0A",
+  "selectionBackground": "#FF2A6D",
+  "black": "#1A1A2E",
+  "red": "#FF003C",
+  "green": "#05FFA1",
+  "yellow": "#FCEE0A",
+  "blue": "#B026FF",
+  "purple": "#FF2A6D",
+  "cyan": "#00F0FF",
+  "white": "#E6F1FF",
+  "brightBlack": "#6A6A8E",
+  "brightRed": "#FF4D6D",
+  "brightGreen": "#5DFFC4",
+  "brightYellow": "#FFF566",
+  "brightBlue": "#C964FF",
+  "brightPurple": "#FF6B9A",
+  "brightCyan": "#7AF7FF",
+  "brightWhite": "#FFFFFF"
+}

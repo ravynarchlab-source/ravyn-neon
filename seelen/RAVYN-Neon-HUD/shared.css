@@ -1,0 +1,36 @@
+/* RAVYN Neon HUD - shared palette. Recolors every Seelen popup via the std variables. */
+:root {
+  --ravyn-bg: #0A0A12;
+  --ravyn-fg: #E6F1FF;
+  --ravyn-cyan: #00F0FF;
+  --ravyn-magenta: #FF2A6D;
+  --ravyn-violet: #B026FF;
+  --ravyn-yellow: #FCEE0A;
+  --ravyn-font: "CaskaydiaCove Nerd Font", "Cascadia Code", "Segoe UI", sans-serif;
+
+  --slu-std-fg-color: #E6F1FF;
+  --slu-std-fg-secondary-color: #A9BCD6;
+  --slu-std-fg-muted-color: #6A6A8E;
+  --slu-std-fg-disabled-color: #4A4A66;
+  --slu-std-bg-dark-color: #06060C;
+  --slu-std-bg-color: #0A0A12;
+  --slu-std-bg-light-color: #16162A;
+  --slu-std-ui-color: #00F0FF;
+  --slu-std-ui-fg-color: #0A0A12;
+  --slu-std-ui-hover-color: #7AF7FF;
+  --slu-std-ui-hover-overlay: #00F0FF26;
+  --slu-std-ui-pressed-overlay: #FF2A6D40;
+  --slu-std-ui-selected-overlay: #00F0FF1A;
+}
+
+*:focus-visible { outline-color: #FCEE0A; }
+
+* ::-webkit-scrollbar-thumb { background-color: #FF2A6D99; border-radius: 0; }
+
+.slu-std-popover {
+  background-color: #0A0A12F2;
+  border: 1px solid #00F0FF66;
+  border-radius: 2px;
+  box-shadow: 0 0 14px #FF2A6D40, 0 8px 24px #000000AA;
+  font-family: var(--ravyn-font);
+}

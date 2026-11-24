@@ -1,0 +1,12 @@
+id: "@ravyn/neon-hud"
+metadata:
+  displayName: RAVYN Neon HUD
+  description: Near-black HUD with neon cyan edges, magenta glow on active items and yellow accents.
+  tags: [dark, neon, cyberpunk, weg, toolbar, window-manager]
+styles:
+  "@seelen/fancy-toolbar": !include toolbar.css
+  "@seelen/weg": !include dock.css
+  "@seelen/window-manager": !include wm.css
+  "@seelen/task-switcher": !include switcher.css
+  "@seelen/tooltip": !include tooltip.css
+sharedStyles: !include shared.css

@@ -1,0 +1,16 @@
+.taskbar {
+  background: linear-gradient(145deg, #10101EF2, #0A0A12F5) !important;
+  border: 1px solid #00F0FF55;
+  border-radius: 2px !important;
+  box-shadow: 0 0 16px #00F0FF2E, 0 0 28px #FF2A6D1F, 0 8px 24px #00000099;
+}
+.weg-separator { border-color: #B026FF66 !important; }
+.weg-item { border-radius: 2px; transition: background-color 120ms ease, box-shadow 120ms ease; }
+.weg-item:hover { background-color: #00F0FF1F; box-shadow: inset 0 0 0 1px #00F0FF66; }
+.weg-item-focused, .weg-item[data-focused="true"] {
+  background-color: #FF2A6D26;
+  box-shadow: inset 0 0 0 1px #FF2A6D99, 0 0 10px #FF2A6D55;
+}
+.weg-item-open-sign { background: #00F0FF; box-shadow: 0 0 6px #00F0FF; border-radius: 0; }
+.weg-item-badge, .weg-item-instance-counter-badge { background: #FCEE0A; color: #0A0A12; }
+.weg-item-attention-indicator { background: #FCEE0A; box-shadow: 0 0 8px #FCEE0A; }

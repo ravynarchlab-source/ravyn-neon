@@ -1,0 +1,11 @@
+.tooltip.slu-std-popover {
+  padding: 6px 10px;
+  border: 1px solid #00F0FF80;
+  border-left: 3px solid #FF2A6D;
+  border-radius: 0;
+  background: #0A0A12FA;
+  color: #E6F1FF;
+  font-family: "CaskaydiaCove Nerd Font", "Cascadia Code", "Segoe UI", sans-serif;
+  font-size: 12px;
+  box-shadow: 0 0 10px #00F0FF33, 0 4px 12px #000A;
+}

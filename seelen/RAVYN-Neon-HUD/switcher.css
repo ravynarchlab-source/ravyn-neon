@@ -1,0 +1,11 @@
+.task-switcher, .task-switcher-container {
+  background: #0A0A12F5;
+  color: #E6F1FF;
+  border: 1px solid #00F0FF66;
+  border-radius: 2px;
+  box-shadow: 0 0 18px #FF2A6D33;
+}
+.task-switcher-item:hover, .task-switcher-item.selected {
+  background: #FF2A6D26;
+  outline: 1px solid #FF2A6D;
+}

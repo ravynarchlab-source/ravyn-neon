@@ -1,0 +1,20 @@
+.ft-bar {
+  color: #E6F1FF;
+  background: linear-gradient(90deg, #0A0A12F2, #140A1EF2);
+  border: 1px solid #00F0FF59;
+  border-bottom: 2px solid #FF2A6D;
+  border-radius: 0 !important;
+  box-shadow: 0 0 12px #00F0FF33, 0 0 22px #FF2A6D26;
+  font-family: "CaskaydiaCove Nerd Font", "Cascadia Code", "Segoe UI", sans-serif;
+  letter-spacing: 0.04em;
+}
+.ft-bar-item.ft-bar-item-clickable { border-radius: 0; transition: background-color 120ms ease, color 120ms ease, box-shadow 120ms ease; }
+.ft-bar-item.ft-bar-item-clickable:hover {
+  color: #00F0FF;
+  background-color: #00F0FF1F;
+  box-shadow: inset 0 -2px 0 #FF2A6D;
+  text-shadow: 0 0 6px #00F0FF99;
+}
+.ft-bar-item.ft-bar-item-clickable:active { background-color: #FF2A6D40; }
+.ft-bar-item-badge { background-color: #FCEE0A; color: #0A0A12; border-radius: 0; }
+.ft-bar-item-content img { border-radius: 0; }
